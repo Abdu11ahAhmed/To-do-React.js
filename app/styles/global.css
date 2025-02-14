@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: averta cy;
+    font-size: 14px;
+}
+h2{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.game {
+    height: 40px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0 black;
+    border-radius: 10px;
+}
+input {
+    outline: none;
+    padding: 0 20px;
+    width: calc(100% - 52px);
+    margin: 0 0 10px 0;
+}
+.search {
+    width: 100%;
+    margin: none;
+}
+button {
+    width: 40px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 0 0 12px;
+    transition: .5s ease background;
+}
+button:hover {
+    background: rgba(0, 255, 115, 0.329);
+}
+button:active {
+    background: none;
+    transform: translate(3px, 3px);
+    box-shadow: none;
+}
+#delTask:hover {
+    background: rgba(255, 0, 0, 0.329);
+}
+#delTask:active {
+    background: none;
+    transform: translate(3px, 3px);
+    box-shadow: none;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+}
+ul li p {
+    width: calc(100% - 52px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+p.full {
+    width: 100%;
+}
+h5 {
+    margin: 10px 0 3px 0;
+}
